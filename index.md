@@ -1,9 +1,10 @@
 ---
 include: [ gallery, motion ]
 content_collection: blog
+title: Home
 ---
 
-# Minimalist, UX developer, designer, urban explorer
+# Ctrl + Rems
 
 I'm Rémi.
 

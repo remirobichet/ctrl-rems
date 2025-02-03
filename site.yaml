@@ -28,17 +28,7 @@ navigation:
   footer:
     - © Rems: /
 
-    - image: /img/twitter.svg
-      url: //x.com/tipiirai
-      alt: Twitter (X) profile
-      size: 22 x 22
-
     - image: /img/github.svg
-      url: //github.com/nuejs/nue/
+      url: //github.com/remirobichet
       alt: Github Projects
-      size: 22 x 22
-
-    - image: /img/linkedin.svg
-      url: //linkedin.com/in/tipiirai
-      alt: LinkedIn profile
       size: 22 x 22
