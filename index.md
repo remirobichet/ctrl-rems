@@ -6,6 +6,6 @@ title: Home
 
 # Ctrl + Rems
 
-I'm Rémi.
+Collection of keyboard shortcuts I use every day
 
 [page-list.gallery]
