@@ -22,11 +22,11 @@ og: /img/og.jpg
 
 navigation:
   header:
-    - Rems: /
+    - Ctrl + Rems: /
     - Contact: /contact/
 
   footer:
-    - © Rems: /
+    - © Ctrl + Rems: /
 
     - image: /img/github.svg
       url: //github.com/remirobichet
