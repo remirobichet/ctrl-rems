@@ -1,0 +1,12 @@
+<div @name="command" class="command">
+  <span :for="key, i in keys">
+    <span :if="i > 0">+</span>
+    <kbd>{key}</kbd>
+  </span>
+
+  <script>
+    constructor({ keys }) {
+      this.keys = keys;
+    }
+  </script>
+</div>
