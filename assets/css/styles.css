@@ -1,0 +1,16 @@
+body {
+  --line-color: #f3e5db;
+  --line-thickness: .05em;
+  --grid-size: 1.5em;
+
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+  
+  width: 100%;
+  min-height: 100dvh;
+ 
+  background: var(--bg);
+  background-image: linear-gradient(var(--line-color) var(--line-thickness), transparent var(--line-thickness)), linear-gradient(90deg, var(--line-color) var(--line-thickness), transparent var(--line-thickness));
+  background-size: var(--grid-size) var(--grid-size);
+}
