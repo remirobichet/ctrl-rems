@@ -16,45 +16,34 @@ module.exports = {
     },
     extend: {
       colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
+        main: 'var(--main)',
+        overlay: 'var(--overlay)',
+        bg: 'var(--bg)',
+        bw: 'var(--bw)',
+        blank: 'var(--blank)',
+        text: 'var(--text)',
+        mtext: 'var(--mtext)',
+        border: 'var(--border)',
+        ring: 'var(--ring)',
+        ringOffset: 'var(--ring-offset)',
+        
+        secondaryBlack: '#212121', 
       },
       borderRadius: {
-        xl: "calc(var(--radius) + 4px)",
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        base: '12px'
+      },
+      boxShadow: {
+        shadow: 'var(--shadow)'
+      },
+      translate: {
+        boxShadowX: '2px',
+        boxShadowY: '4px',
+        reverseBoxShadowX: '-2px',
+        reverseBoxShadowY: '-4px',
+      },
+      fontWeight: {
+        base: '500',
+        heading: '700',
       },
       keyframes: {
         "accordion-down": {
