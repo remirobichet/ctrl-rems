@@ -2,6 +2,7 @@
 title: Windows quick settings
 category: windows
 keys: ['Windows', 'a']
+createdAt: 1740410469141
 ---
 
 This shortcut opens the Quick Settings panel in Windows 10 and Windows 11.
