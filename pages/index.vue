@@ -1,22 +1,26 @@
 <script setup lang="ts">
 const { data } = await useAsyncData('recent-post', () => {
-  return queryCollection('content').order('createdAt', 'DESC').limit(3).all()
-})
-
-const formattedData = computed(() => {
-  return data.value?.map((articles) => {
-    return {
-      slug: articles.stem,
-      title: articles.title,
-      category: articles.category,
-      keys: articles.keys,
-    }
-  })
+  return queryCollection('content').order('createdAt', 'DESC').all()
 })
 </script>
 
 <template>
   <Header />
+  <Card class="w-[350px]">
+    <CardHeader>
+      <CardTitle>Create project</CardTitle>
+      <CardDescription>Deploy your new project in one-click.</CardDescription>
+    </CardHeader>
+    <CardContent>
+      testrr
+    </CardContent>
+    <CardFooter class="flex justify-between">
+      <Button variant="neutral">
+        Cancel
+      </Button>
+      <Button>Deploy</Button>
+    </CardFooter>
+  </Card>
   <div>
     <h1>Recent Post</h1>
     <div v-if="data">
