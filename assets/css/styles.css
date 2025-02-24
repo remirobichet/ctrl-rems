@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   --line-color: #f3e5db;
   --line-thickness: .05em;
@@ -5,7 +7,9 @@ body {
 
   margin: 0;
   padding: 0;
-  opacity: 0.8;
+
+  font-family: 'Public Sans', sans-serif;
+  color: var(--text);
   
   width: 100%;
   min-height: 100dvh;
@@ -13,4 +17,17 @@ body {
   background: var(--bg);
   background-image: linear-gradient(var(--line-color) var(--line-thickness), transparent var(--line-thickness)), linear-gradient(90deg, var(--line-color) var(--line-thickness), transparent var(--line-thickness));
   background-size: var(--grid-size) var(--grid-size);
+}
+
+.public-sans-regular {
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jersey-20-regular {
+  font-family: "Jersey 20", serif;
+  font-weight: 400;
+  font-style: normal;
 }
