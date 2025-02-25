@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/fonts',
+    '@nuxt/icon',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'shadcn-nuxt',

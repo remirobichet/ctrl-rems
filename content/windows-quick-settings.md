@@ -1,7 +1,7 @@
 ---
 title: Windows quick settings
 category: windows
-keys: ['Windows', 'a']
+keys: ['mdi:microsoft-windows', 'a']
 createdAt: 1740410469141
 ---
 

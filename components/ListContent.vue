@@ -17,9 +17,12 @@ const { data } = await useAsyncData('recent-post', () => {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        {{ article.keys }}
+        // content
       </CardContent>
       <CardFooter class="flex justify-between">
+        <div>
+          <KbdGroup :keys="article.keys" />
+        </div>
         <NuxtLink :to="`/p/${article.stem}`">
           <Button variant="neutral">Read more</Button>
         </NuxtLink>

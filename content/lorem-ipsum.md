@@ -1,7 +1,7 @@
 ---
 title: Lorem ipsum
 category: lorem
-keys: ['Windows', 'a']
+keys: ['Ctrl', 'l']
 createdAt: 1740410469140
 ---
 
