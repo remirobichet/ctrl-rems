@@ -17,8 +17,15 @@ if (!page.value) {
 
 <template>
   <Header />
-  <ContentRenderer
-    v-if="page"
-    :value="page"
-  />
+  <div class="text-center">
+    <KbdGroup :keys="page.keys" />
+  </div>
+  <div
+    class="prose prose-neutral prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-5xl mx-auto dark:prose-invert prose-img:rounded-lg"
+  >
+    <ContentRenderer
+      v-if="page"
+      :value="page"
+    />
+  </div>
 </template>

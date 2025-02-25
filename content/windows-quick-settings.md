@@ -5,10 +5,9 @@ keys: ['mdi:microsoft-windows', 'a']
 createdAt: 1740410469141
 ---
 
-This shortcut opens the Quick Settings panel in Windows 10 and Windows 11.
+This shortcut opens the **Quick Settings panel** in Windows 10 and Windows 11.
 
 This panel provides quick access to settings like:
-
 - Wi-Fi
 - Bluetooth
 - Brightness
