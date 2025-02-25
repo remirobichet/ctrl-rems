@@ -16,6 +16,7 @@ if (!page.value) {
 </script>
 
 <template>
+  <NavigateHomeButton />
   <Header />
   <div class="text-center">
     <KbdGroup :keys="page.keys" />
