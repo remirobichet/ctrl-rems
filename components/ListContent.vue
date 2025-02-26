@@ -13,11 +13,15 @@ const { data } = await useAsyncData('recent-post', () => {
       <CardHeader>
         <CardTitle>{{ article.title }}</CardTitle>
         <CardDescription>
-          <Badge>{{ article.category }}</Badge>
+          <Badge
+            v-for="(category, $i) in article.categories"
+            :key="$i"
+            class="mr-1"
+          >{{ category }}</Badge>
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <span class="line-clamp-3">  
+        <span class="line-clamp-3">
           {{ article.description }}
         </span>
       </CardContent>

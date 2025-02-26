@@ -7,7 +7,7 @@ export default defineContentConfig({
       source: '**',
       schema: z.object({
         title: z.string(),
-        category: z.string(),
+        categories: z.array(z.string()),
         description: z.string(),
         keys: z.array(z.string()),
         createdAt: z.string(),
