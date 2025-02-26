@@ -17,7 +17,9 @@ const { data } = await useAsyncData('recent-post', () => {
         </CardDescription>
       </CardHeader>
       <CardContent>
-        // content
+        <span class="line-clamp-3">  
+          {{ article.description }}
+        </span>
       </CardContent>
       <CardFooter class="flex justify-between">
         <div>

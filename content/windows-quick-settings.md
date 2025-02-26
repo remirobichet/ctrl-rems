@@ -1,7 +1,8 @@
 ---
 title: Windows quick settings
 category: windows
-keys: ['mdi:microsoft-windows', 'a']
+keys: ['mdi:microsoft-windows', 'A']
+description: This shortcut opens the Quick Settings panel in Windows 10/11, allowing fast access to Wi-Fi, Bluetooth, brightness, volume, and more. It’s handy for quick adjustments without opening the full Settings app.
 createdAt: 1740410469141
 ---
 

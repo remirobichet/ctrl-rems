@@ -2,6 +2,7 @@
 title: Lorem ipsum 2
 category: lorem
 keys: ['Alt', 'l']
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque tortor sit amet ipsum sollicitudin fringilla. Curabitur ornare euismod nisl, vitae eleifend lorem faucibus eu. Quisque a volutpat sapien.
 createdAt: 1740410469140
 ---
 
